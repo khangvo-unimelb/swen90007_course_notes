@@ -41,15 +41,11 @@ Render, you need to use the External Database Url.
 
 ## Deploying Java App
 
-To deploy for a docker registry, you need to enable the settings. Go to settings page and enable deployment from external registries
-
-![](resources/10_deploy_render_5_settings.png)
-
-Once you have enabled the settings to deploy from docker registry, you can click on New to create a web service.
+To deploy a docker registry, click on New to create a web service.
 
 ![](resources/10_deploy_render_6_webserv.png)
 
-This will show you two options, deploy from Git Repository, or deploy from existing image repository. Since java is not 
+This will show you three options, deploy from Git Provider, Public Git Repository, or deploy from existing image. Since java is not 
 supported by Render, we will deploy from an image repository viz. DockerHub.
 
 ![](resources/10_deploy_render_7_docker.png)
